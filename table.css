@@ -1,0 +1,54 @@
+table {
+	width: 40rem;
+	margin-top: 4rem;
+}
+
+.t_header,
+.t_score,
+.t_insert {
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	padding-block: 1rem;
+}
+
+/* TABLE HEADER */
+.t_header {
+	border-bottom: 2px solid;
+	text-align: center;
+}
+
+.t_header th {
+	min-width: 9rem;
+}
+
+/* TABLE INSERT */
+
+.t_insert {
+	border-bottom: 1px solid;
+}
+
+.t_insert td,
+.t_score td {
+	font-size: 0.8rem;
+	min-width: 8rem;
+	text-align: center;
+}
+
+/* TABLE SCORE */
+
+.t_score {
+	border-bottom: 2px solid grey;
+}
+
+.score_approve .is_approved {
+	width: max-content;
+	display: block;
+	text-align: center;
+	margin: auto;
+	background-color: #028002;
+	padding: 0.3rem;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 3px;
+}

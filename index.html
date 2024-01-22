@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="table.css">
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="content">
+
+      <div class="title">
+        <img src="./src/public/logo.png" alt="">
+        <h1>Calculadora de médias</h1>
+      </div>
+
+      <form id="input_fields">
+        <input type="text" id="inp-atv" placeholder="Nome da Atividade">
+        <input type="text" id="inp-nota" placeholder="Nota">
+        <button type="button" class="add_btn">
+          <span>Adicionar +</span>
+        </button>
+      </form>
+
+      <table>
+        <tbody>
+          <tr class="t_header">
+            <th>Nome da Atividade</th>
+            <th>Nota</th>
+            <th>Aprovado?</th>
+          </tr>
+
+          <tr class="t_insert">
+            <td>Trabalho de Geografia</td>
+            <td>1.00</td>
+            <td>VVV</td>
+          </tr>
+
+          <tr class="t_score">
+            <td>
+              Média Final:
+            </td>
+            <td class="score_final">
+              ---
+            </td>
+            <td class="score_approve">
+              <span class="is_approved">Teste</span>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+  </div>
+</body>
+
+</html>
