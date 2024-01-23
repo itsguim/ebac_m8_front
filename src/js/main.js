@@ -22,7 +22,7 @@ function isApproved() {
 function insertScore() {
   const insertRow = `
   <tr class="t_insert">
-    <td id="actividy">${inputActivity.value}</td>
+    <td id="activity">${inputActivity.value}</td>
     <td id="grade">${inputGrade.value}</td>
     <td id="approved">
       <div class="approved_img">
