@@ -3,6 +3,7 @@ table {
 	margin-top: 4rem;
 }
 
+/* ROWS */
 .t_header,
 .t_insert,
 .t_score {
@@ -42,10 +43,13 @@ tr:nth-last-child(2) {
 	margin: auto;
 }
 
-/* TABLE SCORE */
-
+/* TABLE SCORE (Cálculo da Média) */
 .t_score {
 	border-bottom: 2px solid grey;
+}
+
+.t_score td {
+	font-weight: bold;
 }
 
 .is_approved {
@@ -56,6 +60,5 @@ tr:nth-last-child(2) {
 	background-color: #b1b9b1;
 	padding: 0.3rem;
 	color: #fff;
-	font-weight: bold;
 	border-radius: 3px;
 }

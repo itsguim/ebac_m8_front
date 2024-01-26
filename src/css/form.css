@@ -1,0 +1,39 @@
+#input_fields {
+	display: flex;
+	gap: 2rem;
+	align-items: center;
+	margin-block: 1.5rem;
+}
+
+#input_fields input {
+	border: none;
+	border-bottom: 2px solid black;
+	padding-block: 8px;
+}
+
+input::placeholder {
+	padding-left: 4px;
+}
+
+#inp-nota {
+	min-width: 3rem;
+	max-width: 6rem;
+}
+
+#inp-nota::-webkit-inner-spin-button,
+#inp-nota::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+.add_btn {
+	background-color: #028002;
+	border: none;
+	padding: 9px;
+	cursor: pointer;
+}
+
+.add_btn span {
+	color: #ffffff;
+	font-weight: bold;
+}
