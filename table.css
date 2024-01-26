@@ -4,12 +4,16 @@ table {
 }
 
 .t_header,
-.t_score,
-.t_insert {
+.t_insert,
+.t_score {
 	display: flex;
 	align-items: center;
 	justify-content: space-evenly;
-	padding-block: 1rem;
+	padding-block: 0.6rem;
+}
+
+tr:nth-last-child(2) {
+	border-bottom: 2px solid grey;
 }
 
 /* TABLE HEADER */
@@ -22,8 +26,7 @@ table {
 	min-width: 9rem;
 }
 
-/* TABLE INSERT */
-
+/* TABLE INSERT (Dados Inseridos com JS) */
 .t_insert {
 	border-bottom: 1px solid;
 }
@@ -33,6 +36,10 @@ table {
 	font-size: 0.8rem;
 	min-width: 8rem;
 	text-align: center;
+}
+
+.approved_img {
+	margin: auto;
 }
 
 /* TABLE SCORE */
